@@ -11,7 +11,6 @@ The Article Aggregator is a learning and practice project aimed at building a si
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -109,6 +108,3 @@ To display the articles, the application fetches data from `data/data.js` and dy
 
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
