@@ -70,31 +70,40 @@ Open your browser and navigate to `http://localhost:3000` to see the application
 
 ```
 project-root
+├── node_modules
 ├── public
 │   └── index.html
 ├── src
 │   ├── data
 │   │   └── data.js
 │   ├── components
-│   │   └── ArticleList.jsx
+│   │   └── Navbar.jsx
+│   │   └── Home.jsx
 │   ├── App.jsx
+│   ├── App.css
 │   ├── main.jsx
 │   └── index.css
+├── index.html
 ├── package.json
+└── README.md
+└── READ.md
 └── vite.config.js
+└── tailwind.config.js
+└── vite.config.js
+
 ```
 
 - **public/**: Contains the `index.html` file.
 - **src/**: Contains the source code for the application.
   - **data/**: Contains the static data file `data.js`.
-  - **components/**: Contains the React components, such as `ArticleList.jsx`.
+  - **components/**: Contains the React components, such as `Navbar.jsx` and `Home.jsx`.
   - **App.jsx**: The main app component.
   - **main.jsx**: Entry point for the React application.
   - **index.css**: Global styles.
 
 ## Usage
 
-To display the articles, the application fetches data from `data/data.js` and dynamically renders each article on the homepage using the `ArticleList` component.
+To display the articles, the application fetches data from `data/data.js` and dynamically renders each article on the homepage using the `Home` component.
 
 ## Contributing
 
